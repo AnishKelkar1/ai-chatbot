@@ -1,0 +1,96 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.heading{
+    margin-right: 200px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 100px;
+}
+
+.inputGroup {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.google {
+    width: 200px;
+    height: auto;
+}
+.errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .heading {
+        margin-top: 70px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    .loginArea {
+        margin-bottom: 70px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        margin-top: 80px;
+    }
+
+    .loginArea {
+        margin-bottom: 80px;
+    }
+}
