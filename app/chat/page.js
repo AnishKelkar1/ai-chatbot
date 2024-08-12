@@ -10,7 +10,7 @@ import { useEffect, useRef, useState } from 'react';
 
 // Chat Buddy Name
 
-const defaultChatBuddyName = 'RoboChat';
+const defaultChatBuddyName = 'AI Chat Bot';
 
 export default function Home() {
     // const { data: session, status } = useSession();

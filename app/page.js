@@ -36,7 +36,7 @@ export default function Login() {
     return (
         <div className={styles.container}>
             <div className={styles.heading}>
-                <h1 className={styles.title}>RoboChat</h1>
+                <h1 className={styles.title}>AI Chatbot</h1>
                 <IconButton color="inherit" style={{ cursor: 'default' }}>
                     <AndroidIcon style={{ fontSize: 90 }} />
                 </IconButton>
