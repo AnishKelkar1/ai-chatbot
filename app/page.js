@@ -77,7 +77,7 @@ export default function Login() {
 
                 <h1 style={{ textAlign: 'center', marginTop: '40px', marginBottom: '10px'}}>Or</h1>
 
-                <Tooltip title="Sign in with Google">
+                {/* <Tooltip title="Sign in with Google">
                     <button 
                         className={styles.button} 
                         style={{backgroundColor: 'white'}} 
@@ -88,7 +88,7 @@ export default function Login() {
                             <span style={{ marginLeft: '10px', color: '#007BFF' }}>Sign in with Google</span>
                         </div>
                     </button>
-                </Tooltip>
+                </Tooltip> */}
 
                 <Tooltip title="Continue as Guest">
                     <Link href="/chat">
